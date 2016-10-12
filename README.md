@@ -4,7 +4,7 @@
 
 (not even sorry)
 
-This repo contains a Jupyter notebook with scripts to process and analyze ICE detainer data in Travis County, Texas, from the mid-2000s to October 2016.
+This repo contains a Jupyter notebook with scripts to process and analyze ICE detainer data in Travis County, Texas, from Jan. 1, 2006, to Oct. 4, 2016.
 
 ### Requirements
 * python
@@ -22,10 +22,10 @@ $ jupyter notebook ice-data-parser.ipynb
 ### Assumptions and data issues
 
 #### Pre-ICE data excluded
-Some of the booking dates go back to the mid-90s, which is weird because ICE wasn't formed until 2003 or so. According to XXXX, data before XXX is unreliable, so records on or before XXXXX are excluded from this analysis.
+Data before 2006 was less reliable, so records before Jan. 1, 2006 -- including some records that pre-date the formation of ICE -- are excluded.
 
 #### Grouping by country
-For the purposes of tallying detainees' self-reported countries of origin, we classified the Federated States of Micronesia (a U.S. "associated state" with its own U.N. representative) as its own country. Others we grouped with its "parent" country:
+For the purposes of tallying detainees' self-reported countries of origin, we classified the Federated States of Micronesia (a U.S. "associated state" with its own U.N. representative) as its own country. Others, we grouped with their "parent" countries:
 * British Indian Ocean Territory (United Kingdom)
 * French Southern and Antartic [_sic_] Lands (France)
 * Guadeloupe (France)
@@ -39,7 +39,7 @@ For the purposes of tallying detainees' self-reported countries of origin, we cl
 * Virgin Islands (United States)
 
 #### What is a "violent crime"?
-We classified 61 of the XXXXXX charges present in the data as "violent crime":
+We classified 61 of the 394 charges present in the data as a "violent crime":
 * ASSAULT AGAINST PUB SERVANT (F1)
 * AGG ASSAULT AGAINST SECURITY OFFICER (F1)
 * AGG ASSAULT DATE/FAMILY/HOUSE W/WEAPON(F1)
