@@ -5,7 +5,7 @@
 This is Christian's addition to this repo. See Cody's original work below.
 
 ### Source files
-There are some source files in `data-feb`:
+There are some source files in `data-feb-orig`:
 - ICE - ORR - 4200 accepted 01Feb2017
 - ICE - ORR - 4200 released 01Feb2017 and Reinstated with ICE Warrant
 - ICE - ORR - 4200 released as R217
@@ -35,6 +35,9 @@ To load existing env:
 $ source activate data
 ```
 
+### Process
+
+Using Jupyter notebook to process the ICE detainer data.
 
 
 
