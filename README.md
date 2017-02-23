@@ -1,5 +1,46 @@
 # ICE detainers in Travis County
 
+## Christian's work for Feb. 2017
+
+This is Christian's addition to this repo. See Cody's original work below.
+
+### Source files
+There are some source files in `data-feb`:
+- ICE - ORR - 4200 accepted 01Feb2017
+- ICE - ORR - 4200 released 01Feb2017 and Reinstated with ICE Warrant
+- ICE - ORR - 4200 released as R217
+
+These are only three of five files outlined in the correspondence between Phil Jankoski and the county. There are copies of two emails for that:
+
+- correspondence/request.md
+- correspondence/request-reply.md
+
+There was other back and forth that didn't matter.
+
+### Managing Python
+
+Christian uses [Anaconda](https://docs.continuum.io/anaconda/install) (Or [Miniconda](http://conda.pydata.org/docs/install/quick.html)) for python env management. Some [Conda docs here](https://conda.io/docs/intro.html).
+
+The environment used is called `data`.
+
+To create the same env (theoretically ... I've never done this):
+
+``` shell
+# conda env create -f data.yml 
+```
+
+To load existing env:
+
+``` shell
+$ source activate data
+```
+
+
+
+
+
+## Cody's work from 2016
+
 ![ice ice baby](https://media.giphy.com/media/j0A3pPBp0NAXe/giphy.gif)
 
 (not even sorry)
