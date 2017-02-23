@@ -122,3 +122,6 @@ ENV/
 .ropeproject
 
 # End of https://www.gitignore.io/api/macos,python
+
+# Adding Excel swap file
+~$*
