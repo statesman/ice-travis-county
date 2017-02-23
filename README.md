@@ -26,7 +26,7 @@ The environment used is called `data`.
 To create the same env (theoretically ... I've never done this):
 
 ``` shell
-# conda env create -f data.yml 
+# conda create -name data --file data.txt
 ```
 
 To load existing env:
