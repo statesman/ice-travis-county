@@ -39,7 +39,7 @@ $ source activate data
 
 Using Jupyter notebook to process the ICE detainer data.
 
-
+The first is called `Feb 2017 ICE`. At EOD on 2/23/2017, it scrapes one of hte files above -- those of reinstated detainers -- and puts them into dictionaries. It is a work in progress.
 
 
 ## Cody's work from 2016
