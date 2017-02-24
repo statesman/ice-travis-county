@@ -12,8 +12,8 @@ There are some source files in `data-feb-orig`:
 
 These are only three of five files outlined in the correspondence between Phil Jankoski and the county. There are copies of two emails for that:
 
-- correspondence/request.md
-- correspondence/request-reply.md
+- resources/request.md
+- resources/request-reply.md
 
 There was other back and forth that didn't matter.
 
